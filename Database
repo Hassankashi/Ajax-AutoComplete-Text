@@ -1,0 +1,12 @@
+Create new DB as "MyDB"
+Run follow Query:
+CREATE TABLE [dbo].[tblCustomer](
+	    [CompanyName] [nvarchar](500) NULL,
+	    [ID] [int] IDENTITY(1,1) NOT NULL
+        ) ON [PRIMARY]
+
+insert into dbo.tblCustomer(CompanyName) values('calemard')
+insert into dbo.tblCustomer(CompanyName) values('dantherm')
+insert into dbo.tblCustomer(CompanyName) values('dango dienenthal')
+insert into dbo.tblCustomer(CompanyName) values('daewoo')
+insert into dbo.tblCustomer(CompanyName) values('daim engineering')
